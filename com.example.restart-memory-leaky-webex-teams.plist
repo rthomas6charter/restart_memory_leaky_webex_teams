@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.example.restart-memory-leaky-webex-teams</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>automator</string>
+        <string>/usr/bin/restart_memory_leaky_webex_teams.workflow</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <!--  Every morning at 5:25am  -->
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>5</integer>
+            <key>Minute</key>
+            <integer>25</integer>
+        </dict>
+    </array>
+</dict>
+</plist>
