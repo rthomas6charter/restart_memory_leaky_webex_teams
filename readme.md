@@ -25,3 +25,8 @@ automatically restart Webex Teams every day.
 * https://stackoverflow.com/questions/132955/how-do-i-set-a-task-to-run-every-so-often
 * https://superuser.com/questions/373813/how-do-i-run-an-automator-action-shell-script-or-applescript-on-startup-in-os-x
 * https://superuser.com/questions/126907/how-can-i-get-a-script-to-run-every-day-on-mac-os-x
+
+# Updates
+* 2021/1/22 - Changed the start path to match the install location of the current version of Webex + Webex Teams
+  * Cisco has apparently consolidated some of the processes that run on a Mac.
+  * Also no longer sure if the memory issues persist.  This automator script may not be necessary now.
